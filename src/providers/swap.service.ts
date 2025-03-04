@@ -50,6 +50,7 @@ export class SwapService {
           asset: sourceAsset,
           amount: feeAssetAmount,
           usd: feeUsd,
+          feePercentage : 0.03
         },
         rateUsed: sourcePrice / targetPrice,
       };
